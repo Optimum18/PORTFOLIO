@@ -1,8 +1,8 @@
 
-const Button = ({ title }) => {
+const Button = ({ title , style}) => {
 
     return (
-        <button className="py-2 px-6 rounded-lg bg-black text-white ">
+        <button className={`py-2 w-fit px-6 rounded-lg ${style}`}>
             {title}
         </button>
     )

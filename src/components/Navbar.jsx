@@ -21,7 +21,7 @@ const navLinks = [
 const Navbar = () => {
     return (
         <header>
-            <nav className='flex flex-row justify-between p-5'>
+            <nav className='flex flex-row justify-between py-5'>
                 <div>
                 </div>
                 <div className='flex flex-row space-x-5 items-center' >

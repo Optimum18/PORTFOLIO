@@ -11,13 +11,15 @@ function App() {
 
   return (
     <div>
+    <div className='max-w-7xl mx-auto py-5 px-20'>
       <Navbar />
       <Hero />
       <TrustedBy />
       <Features />
       <Achievement />
       <Portfolio />
-      <Footer />
+    </div>
+    <Footer />
     </div>
   )
 }
